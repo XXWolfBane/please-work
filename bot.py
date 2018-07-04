@@ -15,9 +15,9 @@ async def greet(ctx):
     await ctx.send(":smiley: :wave: Hello, there!")
 @bot.command()
 async def creds(ctx):
-  embed = discord.Embed(title="Python Bot", description="This is who made me!", color=0xeee657)
-     embed.add_field(name="Code Author", "XXWolfBane#5559")
-     embed.add_field(name="Guild owner", owner_id)
+embed = discord.Embed(title="Python Bot", description="This is who made me!", color=0xeee657)
+    embed.add_field(name="Code Author", "XXWolfBane#5559")
+    embed.add_field(name="Guild owner", owner_id)
      
     await ctx.send(embed=embed)
     
